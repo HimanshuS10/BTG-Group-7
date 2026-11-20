@@ -1,0 +1,226 @@
+SKYGUARD AI — COMPLETE MASTER UPGRADE PROMPT
+Prompt to Pitch 2026 | SKYJACK case competition
+
+IMPORTANT: YOU ARE MODIFYING MY EXISTING GOOGLE AI STUDIO APP, NOT CREATING A NEW APP FROM SCRATCH.
+
+I already have an interactive React/TypeScript SKYGUARD AI prototype with an Executive Dashboard, Cost Anomaly Detector, Trade & Tariff Intelligence, AI Financial Analyst, and Business Impact / ROI calculator. Preserve every working feature, fix its existing errors, and upgrade the current code in place. Do not replace functional components with static mockups. My goal is a coherent, polished, fully interactive, competition-ready MVP that genuinely solves BOTH business problems in the uploaded case. Make the changes in code now, not merely by describing a plan.
+
+REFERENCES / ABSOLUTE SOURCE OF TRUTH
+Use these files, which I will attach to this AI Studio conversation if upload is supported:
+1. “Prompt to Pitch; Tracking SKYJACK's Costs.pdf” — exact business problem, users, story, and assignment.
+2. “SKYJACK Appendix.pdf” — exact fictional financial data, rules, cost events, shipments and tariffs.
+3. “Judging Rubric.pdf” — judging criteria, total 100 points.
+4. The SKYJACK company-logo PNG I attach — use this actual image asset, not a text imitation or generated approximation.
+
+The brief requires: (a) explain both related problems; (b) build a working MVP in GOOGLE AI STUDIO; (c) convincingly quantify the business case and realistic implementation. Judges can explore the live prototype. Prioritize actual functionality and truthful calculations, not flashy visuals alone. Do not claim SKYJACK officially endorses or uses this student prototype. Label the financial dataset “fictional competition case figures — CAD.” If some supplied PDFs cannot be read, use the precise records in this prompt instead. Do not invent records, people, approvals, dates, exchange rates, real tariff regulations, ERP connections, or claimed savings. Where the Appendix lacks a detail, display “Not provided in case” and invite investigation. NEVER silently substitute demo numbers for official case data.
+
+NON-NEGOTIABLE ACCEPTANCE CRITERIA
+- Both the plant irregular-cost investigation AND the trade/tariff visibility problem must be solved by ONE coherent product, with shared data, workflows and executive reporting.
+- Create a proper “Quarterly Close Intelligence” module to produce complete automated year-over-year AND quarter-over-quarter operating earnings walks (waterfall charts) with materiality checks, explanations and close-readiness tracking.
+- Support adding/editing/deleting NEW anomalies/ledger entries, shipments, tariff-rate records, interprovincial deliveries, and future-quarter walk inputs. Update dependent totals, charts, alerts, AI answers and PDF exports immediately. Preserve official Appendix evidence as an immutable baseline.
+- Automatically run screening when a user adds/imports an entry, not merely when the dashboard is refreshed.
+- “Export Executive Brief” must generate and download an actual nicely formatted PDF file, NOT JSON with a different extension.
+- Use the attached genuine SKYJACK logo and a sophisticated WHITE / ORANGE / CHARCOAL design.
+- All calculations must be deterministic, accurate, testable, and separated from AI-generated prose.
+
+PART 1 — FIX EVERY OFFICIAL FINANCIAL FIGURE AND RECORD
+
+1A. SEED THE SEVEN OFFICIAL Q3 2026 IRREGULAR / UNIDENTIFIED COSTS IN CAD, REPLACING ALL INVENTED PRIOR DATA:
+IR-01 | Plant 2 scrap write-off | Operations | North America | $900,000 | One-time | fixed plant | Plant 2 cost accountant (PA-2214); posted Sept 29, 2026, period 9; hydraulic cylinder batch failed weld inspection; manual journal entry JE-260931, debit GL 6410 / credit inventory; no reversal reference. Do not assert fraud or that the loss is recoverable.
+IR-02 | Rush freight premium | Logistics | North America | $600,000 | Trend | SG&A in recorded walk | Weeks 30–35, 2026; late truck bookings; three carriers; invoices coded to SG&A rather than freight out. Possible coding correction requires review; a reclassification is not automatically a cash saving.
+IR-03 | Duplicate vendor invoice | Procurement | Europe | $265,000 | One-time | variable costs | Accounts payable clerk; steel supplier V-4471; August 2026; invoice re-entered with “-A” suffix; second payment posted; matching rule missed it. Potential recovery, subject to verification and successful collection.
+IR-04 | Suspense account balance | Finance | Corporate | $340,000 | Trend | SG&A | July–Sept 2026; ERP batch import, unmapped cost centre codes from new plant report; parked in account 2890 and not cleared at close; preparer unknown.
+IR-05 | Consultant payment with no purchase order | Sales | Asia | $185,000 | One-time | SG&A | Q3 2026; unbudgeted market study; payment via AP manual approval; approver NOT recorded. The recorded absence of an approver is different from merely unspecified approval information.
+IR-06 | Warranty accrual not reversed | Finance | North America | $410,000 | One-time | variable costs | Q2 accrual carried into Q3; corporate controller’s team; reversal flag missing. Treat as potential earnings/accounting correction, NOT automatically cash recovered.
+IR-07 | Broker fee for shipment not on file | Customs and Trade | North America | $118,000 | One-time | SG&A | Sept 2026; customs broker; billed shipment number does not match an ERP shipment. Investigate supporting evidence; do not invent outcome.
+
+All seven total exactly $2,818,000. North America accounts for exactly $2,028,000, Finance $750,000, Operations $900,000, Logistics $600,000, Procurement $265,000, Sales $185,000, Customs/Trade $118,000. No SINGLE one of these seven reaches $1,000,000. Show record details with Five Ws and How (who, what, where, when, why, how), operating-earnings effect, evidence, verification state, owner, approval state and next action. Use explicit provenance (“Official case baseline” versus “User-added scenario”). Never conflate “unknown/not provided” with “confirmed missing.”
+
+1B. HISTORICAL INCOME STATEMENT / EARNINGS (MILLIONS CAD):
+Quarter     Sales     Operating earnings
+Q4 2024     290.4       9.7
+Q1 2025     268.9       2.3
+Q2 2025     301.2      12.4
+Q3 2025     312.6      15.2
+Q4 2025     287.3       2.6
+Q1 2026     275.8       0.8
+Q2 2026     318.4      16.5
+Q3 2026     329.7      20.7
+Q3 2025 to Q3 2026: operating earnings INCREASED $5,500,000, sales increased $17,100,000 (5.5%). Q2 2026 to Q3 2026: operating earnings INCREASED $4,200,000. Remove ALL older invented earnings series, false quarterly declines, and any misleading “pre-irregular costs” earnings counterfactual. Irregular-cost rows are not a substitute for the official earnings walk; never double count them.
+
+1C. OFFICIAL YEAR-OVER-YEAR OPERATING EARNINGS WALK, Q3 2025 → Q3 2026 (ALL VALUES CAD THOUSANDS; SIGNED):
+Start operating earnings 15,200
+Sales: volume +13,800
+Sales: price +2,400
+Sales: FX +900
+Variable costs: volume -6,300
+Variable costs: material prices -900
+Variable costs: FX -400
+Variable costs: efficiency gains +500
+Fixed plant: wage increases -1,400
+Fixed plant: one-time scrap (IR-01) -900
+Fixed plant: other -300
+SG&A: rush freight (IR-02) -600
+SG&A: other -500
+Amortization -800
+End operating earnings 20,700
+These lines must reconcile exactly to +5,500 change. FLAG the individual walk lines whose ABSOLUTE change is >= $1,000,000: sales volume +13.8M, sales price +2.4M, variable costs volume -6.3M, fixed plant wage increases -1.4M. Even non-material lines should remain visible, filterable and explainable.
+
+1D. OFFICIAL QUARTER-OVER-QUARTER OPERATING EARNINGS WALK, Q2 2026 → Q3 2026 (CAD THOUSANDS; SIGNED):
+Start operating earnings 16,500
+Sales: volume +8,400
+Sales: price +1,700
+Sales: FX +1,200
+Variable costs: volume -4,600
+Variable costs: material prices -300
+Variable costs: FX -200
+Variable costs: efficiency gains -100
+Fixed plant: seasonal overtime -700
+Fixed plant: one-time scrap -600
+Fixed plant: underspend +300
+SG&A: rush freight -400
+SG&A: other -200
+Amortization -300
+End operating earnings 20,700
+These lines must reconcile exactly to +4,200. Flag material walk lines (>= $1M absolute): +8.4M, +1.7M, +1.2M, -4.6M. Keep the source’s different walk allocations rather than forcing the YoY and QoQ rows to be identical.
+
+IMPORTANT MATERIALITY RULES: An individual earnings WALK CHANGE >= CAD $1,000,000 (absolute value) requires explanation before close. A separate ENTRY SCREEN flags any single cost >= CAD $250,000 OR any cost with a CONFIRMED missing approval reference. Different thresholds, different uses. Other anomaly heuristics can also trigger separately and should explain their rationale, e.g. duplicate invoices with suffix variations, anomalous timing, wrong GL account, stale accrual, unexplained suspense, unmatched shipment, or unresolved evidence. A flagged transaction is NOT proof of fraud.
+
+1E. REPLACE ALL TWELVE OFFICIAL CUSTOMS ENTRIES EXACTLY (CAD):
+ID | Route | Goods | Declared value | Duty policy / rates | Assessed duty and tariffs | Broker billed | Broker over/(under) the 0.2%-of-value contract
+E-01 | USA → Guelph | steel plate | 1,200,000 | 0% CUSMA claimed | 0 | 2,400 | 0
+E-02 | Germany → Guelph | hydraulic cylinders | 800,000 | 2.5% normal | 20,000 | 1,600 | 0
+E-03 | Germany → Guelph | hydraulic cylinders | 650,000 | 2.5% normal | 16,250 | 1,300 | 0
+E-04 | China → Guelph | electric motors | 900,000 | 3.5% normal + 25% ADDITIONAL | 256,500 | 4,500 | +2,700
+E-05 | China → Guelph | control modules | 500,000 | 0% normal + 25% ADDITIONAL | 125,000 | 2,500 | +1,500
+E-06 | China → Guelph | electric motors | 700,000 | 3.5% normal + 25% ADDITIONAL | 199,500 | 3,500 | +2,100
+E-07 | Italy → Guelph | scissor-arm parts | 420,000 | 2.9% normal | 12,180 | 1,100 | +260
+E-08 | Mexico → Guelph | wire harnesses | 380,000 | 2.9% normal; CUSMA NOT claimed | 11,020 | 950 | +190
+E-09 | Japan → Guelph | engine parts | 290,000 | 0% CPTPP | 0 | 870 | +290
+E-10 | Guelph → Brisbane, DDP | boom lifts | 1,500,000 | 4.0% EXPORT duty | 60,000 | 3,800 | +800
+E-11 | Guelph → Chicago, DAP | scissor lifts | 2,400,000 | 0% CUSMA | 0 | 2,100 | -2,700
+E-12 | South Korea → Guelph | bearings | 240,000 | 4.5% normal | 10,800 | 900 | +420
+
+CONTROL TOTALS: declared value $9,980,000; ordinary MFN duty $126,250; China ADDITIONAL tariffs $525,000; E-10 export duty $60,000; TOTAL duty/tariffs $711,250; billed broker fees $25,520; expected broker fees $19,960; gross broker fee overcharges $8,260; undercharge $2,700 (E-11); NET broker excess $5,560; overall duty + tariff + broker $736,770. Preserve the distinction between duty/tariffs and broker charges, and between net and gross overcharges. E-08 is a documented POSSIBLE missed trade agreement claim with $11,020 in duties, conditional on valid documentation/eligibility and remediation. Do not assert guaranteed recovery. E-04/E-05/E-06 are specifically additional-China-tariff entries; do not randomly apply these rates to other countries or shipments. HS codes from appendix can be populated: E-01 7208, E-02/03 8412, E-04/06 8501, E-05 8537, E-07 7326, E-08 8544, E-09 8408, E-10/11 8427, E-12 8482. All case tariff rates are FICTIONAL practice assumptions, not real current regulations.
+
+1F. CHINA TARIFF SIMULATION USING ADDITIONAL TARIFF ONLY:
+E-04, E-05, E-06 combined value $2,100,000 per quarter. At the case’s 25% extra tariff: $525,000/quarter. At 15%: $315,000/quarter, reduction $210,000/quarter and $840,000/year if same volume each quarter. At 35%: $735,000/quarter, increase $210,000/quarter and $840,000/year. At 0% IF a supplier actually qualifies for CUSMA under the case assumption, extra tariff reduction $525,000/quarter, annualized $2,100,000 BEFORE switching/qualification costs; do not promise that outcome. Ordinary motor MFN duty remains separate and unchanged. If all other Q3 costs are held constant, total duty/tariff/broker changes from $736,770 baseline to $526,770 (15%) or $946,770 (35%). Include interactive slider/preset buttons and state the underlying assumptions clearly.
+
+1G. INTERPROVINCIAL SALES AND FREIGHT — KEEP CUSTOMER SALES TAX SEPARATE FROM SKYJACK COST / CUSTOMS DUTY:
+Calgary AB: sales $2,200,000; GST 5%, sales tax $110,000; freight $18,400.
+Vancouver BC: sales $1,600,000; GST 5% + PST 7%, sales tax $192,000; freight $27,900.
+Montreal QC: sales $1,900,000; GST 5% + QST 9.975%, sales tax $284,525; freight $19,600.
+Halifax NS: sales $700,000; HST 15%, sales tax $105,000; freight $14,300.
+Winnipeg MB: sales $900,000; GST 5% + RST 7%, sales tax $108,000; freight $15,200.
+TOTAL sales $7,300,000, customer sales tax $799,525, freight $95,400. Inside Canada there is no customs duty. Do not add collected sales tax into financial losses or cost-recovery opportunities.
+
+1H. EIGHT-QUARTER DUTY / TARIFF / BROKER SERIES, CAD THOUSANDS:
+Q4 2024 298; Q1 2025 281; Q2 2025 305; Q3 2025 312; Q4 2025 327; Q1 2026 402; Q2 2026 588; Q3 2026 737 (rounded series figure; exact Q3 sum is $736,770). Q3 2025 to Q3 2026 increase approximately $425,000. Use this series for trend charts, NOT invented values. Additional tariffs start Q1 2026 in this fictional case.
+
+PART 2 — PRODUCT DESIGN, BRAND IDENTITY, INTERFACE QUALITY
+
+Apply the supplied genuine SKYJACK PNG logo as an imported static asset to the app shell, navigation header and PDF report header. It has grey/charcoal lettering and an orange mark; do not trace/recreate it using text, emoji or SVG guesses, stretch it, or show an ugly black tile behind it. Preserve transparency and generous whitespace. Keep “SKYGUARD AI” as a smaller distinct PRODUCT label and clearly state “Student competition prototype — not an official SKYJACK deployment.”
+
+Rework the dark navy / bright blue style into polished WHITE-FIRST industrial enterprise software. Suggested palette: white #FFFFFF, soft white #FAFAFA, warm neutral #F6F5F3, charcoal #333333, muted grey #6B7280, SKYJACK-style orange #F04F25, pale orange #FFF3ED. Use accessible contrast; add clear orange active-state indicators, tasteful orange action buttons, quiet borders, consistent whitespace, clean typography, coherent metrics, subtle depth and restrained charts in orange, dark grey and neutrals. Risk/severity colours may use appropriate red/amber/green, not orange for everything. Sidebar should be white, navigation obvious, tables readable with sticky headers where helpful, charts correctly labeled with units and exact CAD values. Responsive for 13-minute live presentation on laptop/projector; no clipped text, tiny charts, fake interactions, empty routes or decorative-only buttons. Maintain visual consistency across EVERY module, modal, PDF and state.
+
+PART 3 — COMPLETE NAVIGATION AND END-TO-END WORKFLOWS
+
+Keep/improve all current modules and ADD Quarterly Close Intelligence and a coherent data-management entry point. Suggested navigation:
+1. Executive Overview — real metrics, 8-quarter historical earnings chart, regional/department irregularities, trend and investigation pipeline; separate baseline metrics from working-scenario figures; spotlight unresolved actions.
+2. Cost Intelligence — every official IR row, searchable/filterable table, risk prioritization, add/edit/delete for user records, CSV import, transaction detail drawer, five Ws + how, invoice-duplicate matching, evidence checklist, approval workflow, owned investigations and timeline.
+3. Quarterly Close Intelligence — automated YoY and QoQ earnings WATERFALLS based on source lines, correct $1M per-line materiality highlighting, comparison toggle, explanations and documented source references; show every step and verify totals.
+4. Trade Intelligence — official 12-shipment tracker, 0.2% broker contract check, missing-origin-agreement flags, duty classifications, add/edit/delete shipment flow, tariff scenario modeling and date-stamped practice-rate administration.
+5. Interprovincial Costs — editable Canadian deliveries, sales/tax/freight distinction, sensible freight summaries.
+6. AI Financial Analyst — grounded narrative assistant with useful fixed example prompts; link every explanation to specific official line IDs / source sections; make “I don't know” possible; never generate unverified facts or calculations.
+7. Business Impact & ROI — transparent interactive assumptions, plausible adoption and implementation plan, conservative sensitivity modeling and cost-to-value comparison.
+8. Data Management — demo data health, CSV preview/import, backup export if wanted, case-source/provenance, reset confirmation and schema/storage notices.
+You may combine sections logically if that improves usability; preserve discoverability.
+
+DANA'S SCENARIO (COMPLETE DEMONSTRATION FLOW): On opening Cost Intelligence, Dana sees IR-01 ($900K late scrap write-off) flagged due to amount, unusual timing and unanswered support. Clicking shows transaction evidence from Appendix, who posted it, when, plant/GL, cause, earnings impact, verification gaps and suggested checks. She changes status New → Investigating, records who reviewed it, adds a note or evidence reference, and can move it to Ready for controller review only after required checks are satisfied. Distinguish documented case facts from AI hypotheses. Link the entry to the official YoY earnings-walk line -$900K WITHOUT mistakenly calling the IR item itself a $1M material walk change. Show how an unreviewed item blocks “close-ready” even if below $1M when evidence/approval is still missing.
+
+HELEN'S SCENARIO: In Quarterly Close Intelligence, Helen chooses YoY or QoQ, sees ALL exact signed movements in a reconciled waterfall, sees which material walk lines >=$1M require signed explanations, can expand an individual line to review source figures and connected IR investigations, and generates a professional summary of explained vs unexplained variances with owners and close-readiness. If an explanation or verification is not present, mark “Needs investigation” — NEVER silently mark it explained because the AI narrated it. Include preparation checklist, approval history, close status and defensible PDF export.
+
+MARCO'S SCENARIO: In Trade Intelligence, Marco checks E-04 and immediately sees a $2,700 broker fee difference (case contractual 0.2%); reviews E-08 as a possible CUSMA documentation/claim exception rather than guaranteed refund; uses a 15% additional-China-tariff scenario and sees exactly $210K less per quarter compared to 25%, then exports the evidence. Interprovincial collected customer taxes are always separate from customs.
+
+PART 4 — ADD/EDIT/DELETE + IMPORT / DATA LIFECYCLE (MUST REALLY WORK)
+
+Cost entry form: ID (unique), title/description, date, amount CAD (validated nonnegative), department, plant and region, GL/account, vendor/counterparty (optional), preparer, approval reference/status (explicitly present / confirmed missing / not provided), one-time vs trend, category, cause, supporting evidence/reference, operating earnings effect or treatment, accounting period, investigation owner, status, notes. Validate required fields; allow editing new entries and editable investigation metadata on baseline entries, but never silently rewrite the source truth of protected baseline transactions. Confirm deletion of user-added records, provide cancel and useful error messages. Record action/audit events with current actual timestamps and clear “demo browser state” label. Add visible Add Cost Entry button.
+
+Shipment form: unique ID, date, origin/destination, declared value CAD, goods, HS code, origin country, normal duty %, extra tariff %, export duty % where applicable, FTA eligibility/claimed/documented states, broker fee billed, contract broker % (default 0.2%), evidence and notes. Validate and calculate duty, extra tariff, export duty, contract broker charge, over/under variance and potential agreement exception. Do NOT infer trade-agreement qualification from origin country alone. Include add/edit/delete and CSV upload.
+
+Tariff & broker contract management: editable fictional rate rules (country/category/HS where relevant, effective date, end date, rate kind, source/note), preserved version history, time-sensitive application to new shipments based on date, explicit override when needed. Changing a tariff scenario slider must NEVER mutate the immutable actual historical quarter. Distinguish past posted amounts, current working data and hypothetical what-if scenarios.
+
+Interprovincial delivery form: destination, sale amount, customer tax type/rate/amount, freight expense, date, notes. No customs duty for these records. Add/edit/delete and recalculate summaries.
+
+Future period / quarterly close inputs: permit creating a NEW reporting quarter with sales, operating earnings and signed walk inputs, validate that Start + Sum(changes) = End, show any discrepancy as “Unreconciled” and do not invent missing walk breakdowns. The documented Q3 2025 and Q2/Q3 2026 walks are locked originals. If user adds a cost, do NOT automatically rewrite reported official historical operating earnings or pretend the new expense is part of an already closed quarter; present it as a user-added provisional scenario / new period where appropriate.
+
+As a practical ERP-ingestion MVP, accept CSV file import for anomalies and shipments: downloadable schema/example, preview, row-level validation errors, duplicate-ID handling, confirmation before commit, and immediate alert screening / dashboard refresh. Do not claim a real-time ERP integration or secure shared database: label the current system “demo CSV/manual ingestion,” with ERP integration as future roadmap.
+
+Use a versioned localStorage state format (or existing suitable browser persistence). Existing prototype used legacy 'skyguard_anomalies_v1' data containing incorrect entries; do NOT let a stale old cached list override the fixed official case baseline merely because record counts match. Migrate safely or use a new schema key, preserve only valid user customizations and expose “Reset to Official Case” with a confirmation warning that scenario edits will be lost. Clearly state local data lives only in the current browser, is not collaborative across users, and should not be used for real sensitive accounting records.
+
+PART 5 — ANOMALY ENGINE, HUMAN VERIFICATION, EVIDENCE, AI
+
+Build a transparent, understandable screen that checks each newly ingested entry immediately. At minimum: entry >=$250K; approval confirmed missing; possible duplicate supplier invoice after normalized number/suffix handling; unusual posting period/timing; GL account/category mismatch; missing reversal; uncleared suspense; broker shipment without matching source; cost spikes against a defined baseline. These additional heuristics require appropriate input data and conservative treatment when data is missing. Every flag shows its exact triggered rule(s) and evidence, not an ungrounded black-box risk score. If there is insufficient evidence, display “Requires review.” Add alert filter by rule/priority, review owner, status, and a chronological mock audit log. Humans must accept or reject corrections and suspected duplicate recoveries; AI must not auto-post accounting adjustments.
+
+AI analyst: default mode MUST work reliably without any API key through fixed deterministic case-query functions and curated grounded narrative responses; optional Gemini features may summarize evidence and suggest investigations. NEVER send sensitive user documents by default, hardcode private API keys in frontend code, fabricate approvals, invent live ERP connections, or say an explanation was verified simply because Gemini wrote it. Use deterministic functions for arithmetic, thresholds, tariff rates, reconciliation, statistics, PDF totals and scenario comparisons. Attach links/IDs to source case entries, Appendix sections and computation steps. If unsure, show missing evidence and ask for validation. Show AI recommendation as separate from verified source facts.
+
+PART 6 — QUARTERLY CLOSE INTELLIGENCE (PRIORITY FEATURE)
+
+This is NOT a generic expense chart. Build genuine waterfall charts for the TWO official earnings walks supplied in Part 1, with every line, correct direction/sign, tooltips, legends, start/end totals, and exact reconciliation. Provide YoY/QoQ toggle; highlight abs(change)>=1,000,000; count explained vs pending material lines; source link for each material line. Let Helen click Generate Quarterly Explanation to see: exact earnings start/end and change, top drivers, material positive/negative changes, associated anomalies where linked in case, explanation status and evidence gaps, assigned reviewers, close-readiness checklist, and next recommended actions. An “AI-generated explanation” is not the same thing as an approved explanation. If any walk does not sum exactly, visibly display the difference and prohibit “Ready for close.” Display manual verification status of walk explanations, not invented signoffs. Show a connected alert feed so Dana’s investigations flow into Helen’s review while preserving no-double-count rules.
+
+PART 7 — TRADE MONITOR / SIMULATIONS (PRIORITY FEATURE)
+
+Broker check expected_fee = declared_value × 0.002 for these official entries. Variance = billed_fee − expected_fee. Show per-entry and aggregate gross overcharges, undercharges, net difference. Rate calculator must separate normal MFN, extra-China tariff, export duty and agreement rates; do not apply an additional China tariff to unrelated entries. Statuses: agreement claimed, potential eligible/unclaimed, unverified; trade agreement qualification requires proper documents. Allow selecting 0%, 15%, 25%, 35% additional China practice tariff and custom slider; scenario calculations must be formula-based over the actual three China entries, with full calculation breakdown. Explicitly state external government tariff movements are NOT savings generated by SKYGUARD. Correctly explain DDP vs DAP when relevant. Interprovincial taxes are customer tax collections, NEVER imported customs duties. Display the supplied eight-quarter trend for trade costs and notify about spikes relative to prior periods.
+
+PART 8 — TRUSTWORTHY BUSINESS CASE / ROI AND IMPLEMENTATION PLAN
+
+Build editable assumptions rather than unsupported claims. Distinguish:
+(1) documented EXPOSURE/RECORDED COST (e.g. $2.818M unusual costs, not all recoverable);
+(2) potential CORRECTION or RECOVERY (e.g. IR-03 $265K possible duplicate payment, conditional; IR-06 $410K accrual correction, not necessarily cash);
+(3) possible broker fee recovery (case net $5,560; gross $8,260 with $2,700 undercharges, choose and explain one consistent net/gross assumption);
+(4) conditional missed claim (E-08 $11,020 subject to proof and eligibility);
+(5) future PREVENTION (credible recurrence assumptions, not multiplied arbitrarily);
+(6) INVESTIGATION HOURS saved (editable time per incident, volume, hourly fully-loaded labor cost);
+(7) hypothetical tariff policy/scenario reductions — NEVER attribute these to app-driven ROI.
+
+Allow user input for implementation/setup cost, monthly maintenance, employee training, annual incident count, hours saved, labor rates, recovery likelihood, future prevented losses, adoption factor and ramp-up. Display all formulas for 1-year and 3-year benefit, operating cost, net benefit, ROI and simple payback, with conservative/base/optimistic scenarios and sensitivity. Default values must be clearly labeled as illustrative USER-EDITABLE assumptions, not SKYJACK-reported numbers; do not hardcode fabricated “guaranteed savings.” Show a plausible deployment roadmap: (i) pilot with Plant 2 and customs team using CSV exports; (ii) human-validation and exception-workflow tuning; (iii) secure ERP integration with role-based access, approved data mapping and audit logs; (iv) incremental regional rollout. Explain technical dependencies, permissions, governance, data quality and adoption risks. Leadership should be able to make an informed decision without confusing hypothetical outcomes with verified results.
+
+PART 9 — PDF EXPORT MUST REPLACE JSON EXECUTIVE BRIEF
+
+The existing 'Export Brief' should immediately download a REAL PDF, e.g. SKYGUARD_Executive_Brief_YYYY-MM-DD.pdf (MIME application/pdf). Use jsPDF plus jspdf-autotable or another proven browser-side PDF library with reliable multipage tables and embedded local PNG logo. No browser-print-only pseudo-export, no JSON renamed .pdf. You may preserve a clearly separate “Backup working data (JSON)” export for demo state, but NEVER label JSON as the executive brief.
+
+PDF appearance: clean white paper (Letter or A4), genuine SKYJACK PNG in header, restrained orange rule/accents, charcoal text, date/reporting period, page numbers, 'SKYGUARD AI — Prompt to Pitch student competition prototype' identifier, and fictional case disclosure. Include:
+1. Executive summary, key KPIs and clear status/exposure definitions.
+2. Actual Q3 earnings + full YoY/QoQ earnings-walk charts or readable tables, materiality and close-readiness; any reconciliation gaps.
+3. Irregular costs: flags, evidence/owner/status, material rule distinction, original vs added records.
+4. Shipments and duty/tariff/broker summary with numbers and flagged overcharges/eligibility checks.
+5. Additional-China tariff scenario with base rate and what-if assumptions (not app-generated savings).
+6. Interprovincial freight vs customer tax distinction.
+7. Investigation priorities and recommended next actions, clearly separate evidence from suggestions.
+8. Business case/ROI and explicit editable assumptions, uncertainties and adoption plan.
+9. Source notes / provenance / demo-only disclaimer.
+
+All tables must wrap, auto-paginate, have readable column widths, align currency and have no cut-off rows. Generate report contents from CURRENT app state so newly added items, investigation statuses, updated rates, filters/scope where appropriate, and scenario assumptions match the UI. Reconcile totals, and label every changed/provisional number as a working scenario. Never silently overwrite the verified case baseline in the report. Also offer a “Report preview” if straightforward but prioritize correct export. Verify PDF opens, logo embeds, tables paginate, legibility and accurate figures.
+
+PART 10 — VERY SPECIFIC LIVE DEMO / QUALITY TESTS — ACTUALLY RUN AND VERIFY
+
+Core data checks:
+- Seven official irregular entries: total exactly $2,818,000; North America $2,028,000; none reaches $1M individually.
+- Twelve official customs entries: declared value $9,980,000; normal duty $126,250; additional China tariff $525,000; export duty $60,000; duty+tariff $711,250; broker billed $25,520; fee benchmark $19,960; net overcharge $5,560; all-in $736,770.
+- Q3 2025 $15.2M → Q3 2026 $20.7M, both complete YoY and QoQ waterfalls reconcile EXACTLY and flag the correct >=$1M walk lines.
+- China 25% → 15% additional tariff = -$210,000 per quarter and -$840,000 per year with constant shipments (exclude supplier-switching costs and normal motor duties from this delta).
+- E-04 broker billed $4,500 vs expected $1,800 => $2,700 overcharge. E-08 is only the explicit missed CUSMA CLAIM candidate in the case, NOT guaranteed refund.
+- Customer interprovincial tax sum $799,525 is kept separate from customs expenses.
+
+Interactive tests:
+1. Add a new $300,000 Operations cost with confirmed missing approval. The app immediately flags both >=$250K and missing approval; dashboard working-scenario total rises $300K with no change to official baseline. Attach evidence, update investigation status and verify audit trail. Edit approval to present: missing-approval flag disappears, amount-based flag remains. Delete the user entry: working totals revert. Reset demo restores official baseline.
+2. Add a new $100,000 non-China shipment with 2% normal duty and billed broker fee $400 at 0.2% contractual rate: duty $2,000; expected broker $200; fee overcharge $200. Edit broker billed to $200: overcharge disappears. New record appears in PDF.
+3. Import a CSV with one valid new cost, one duplicate transaction ID, one bad numeric amount. Preview and validation must prevent silent corruption and show actionable errors. Confirm only valid intended records are added.
+4. Test each official earnings walk: Start + SUM(signed changes) = reported End exactly; materiality flags correct; “Ready for close” disabled or marked pending for unverified material explanations.
+5. Export PDF after adding and editing data, open the actual file and verify branded multi-page formatting and accurate current-state totals. It must start with PDF file bytes and have MIME application/pdf, not JSON.
+6. Test all UI paths, filters, search, add/edit/delete, tariff scenarios, custom rates, analyst example questions, dashboard metrics, persistence after refresh, reset confirmation, keyboard accessibility, narrow laptop viewport, responsive layout, and no runtime/console errors. Avoid regression of current working functions.
+
+IMPLEMENTATION APPROACH / OUTPUT
+Work incrementally in the existing React/TypeScript codebase: data models and immutable official case dataset; validated state/actions and versioned persistence; calculation utilities and real tests; anomaly/ERP-demo workflows; earnings walks; tariff tools and ROI; PDF renderer; logo/assets; visual polish; full integration. Use maintainable components and avoid repeated magic numbers. For financial calculations use deterministic math and suitable rounding to cents or integer CAD as appropriate. Never hide failures behind fake toast notifications. Do not make any feature a placeholder just to appear finished. If a full feature cannot be done, say explicitly what is incomplete rather than pretending it works.
+
+IMPORTANT FINAL REMINDER: The competition rubric gives Problem Identification 20, Business Impact/Feasibility/ROI 30, Working MVP/Design/Creativity 30, Presentation 20. Our app should visibly address WHY the existing process is slow, identify anomalies as soon as they enter, document who/what/where/when/why/how, reconcile BOTH earnings walks, monitor trade costs, enable future updates and provide a defensible executive PDF. All financial numbers must agree with the fictional official SKYJACK Appendix. Implement all the upgrades NOW in the existing app; then briefly summarize updated files, tests successfully run, and genuinely remaining limitations.

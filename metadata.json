@@ -1,0 +1,6 @@
+{
+  "name": "SKYGUARD AI",
+  "description": "Enterprise financial intelligence, irregular cost anomaly detection, and trade & tariff monitoring platform for SKYJACK.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
